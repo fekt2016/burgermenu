@@ -1,0 +1,32 @@
+.navlist {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+.navitem {
+  padding: 18px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navlistdisplay {
+    flex-flow: column nowrap;
+    background-color: #0d2538;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    padding-top: 3.5rem;
+
+
+
+}
+  .navitem {
+    color: #fff;
+  }
+}
